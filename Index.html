@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reparação de Televisão</title>
+    <style>
+        /* Adicione seu CSS personalizado aqui */
+        /* Por enquanto, vamos manter o estilo mínimo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            background-color: #f0f0f0;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Reparação de Televisão</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h2>Bem-vindo à Reparação de Televisão!</h2>
+        <p>Oferecemos serviços profissionais de reparação de televisão para resolver seus problemas de forma rápida e eficiente.</p>
+        <p>Conte conosco para consertar sua televisão com garantia de qualidade.</p>
+    </section>
+    
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Reparo de tela quebrada</li>
+            <li>Substituição de peças defeituosas</li>
+            <li>Diagnóstico e solução de problemas de hardware/software</li>
+            <!-- Adicione mais serviços conforme necessário -->
+        </ul>
+    </section>
+    
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma equipe de técnicos experientes e qualificados, dedicados a fornecer serviços de reparação de televisão da mais alta qualidade.</p>
+        <p>Nossa missão é garantir a satisfação do cliente e restaurar a funcionalidade da sua televisão com rapidez e eficiência.</p>
+    </section>
+    
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Preencha o formulário abaixo para agendar um serviço ou fazer uma pergunta.</p>
+        <form action="processar_formulario.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Reparação de Televisão. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
